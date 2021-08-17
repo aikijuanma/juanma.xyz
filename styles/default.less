@@ -18,7 +18,7 @@ html {
   padding: 0;
 
   body {
-    background-color: @Blue;
+    background-color: @Yellow;
     height: 100%; width: 100%;
     margin: 0;
     padding: 0;
@@ -35,6 +35,7 @@ html {
 
             > a {
               .show;
+              background-color: transparent !important;
               position: relative;
 
               img {
@@ -58,7 +59,7 @@ html {
         padding-right: 0; padding-left: 0;
 
         > main {
-          .NittiLight;
+          .FiraCode; .light;
           .show;
           color: fade(@Black, 80%);
           font-size: 16px;
@@ -67,28 +68,40 @@ html {
           margin: 0 auto;
           position: relative;
 
+          > div[lang="jp"] {
+            .MPlus1p; .light;
+          }
+
           a {
+            .transition;
+            background-color: fade(@Yellow, 32%);
             color: fade(@Black, 80%);
             position: relative;
             text-decoration: none;
             white-space: nowrap;
 
-            &[title=":]"] {
-
-              &:focus,
-              &:hover {
-                text-decoration: none;
-              }
-            }
-
             &:hover {
-              .NittiLightItalic;
-              text-decoration: line-through;
+              background-color: fade(@Yellow, 80%);
+              text-decoration: none;
             }
-          }
 
-          em, i {
-            .NittiLightItalic; .normal;
+            // &[title=":$"] {
+            //   background-color: transparent;
+            //
+            //   &:focus,
+            //   &:hover {
+            //     text-decoration: line-through;
+            //   }
+            // }
+            //
+            // &[title=":]"] {
+            //   background-color: transparent;
+            //
+            //   &:focus,
+            //   &:hover {
+            //     text-decoration: line-through;
+            //   }
+            // }
           }
 
           p {
@@ -101,17 +114,17 @@ html {
 }
 
 ::-moz-selection {
-  background-color: @Blue;
+  background-color: @Grey;
   color: @White;
 }
 
 ::selection {
-  background-color: @Blue;
+  background-color: @Grey;
   color: @White;
 }
 
 .pilcrow {
-  color: @Blue;
+  color: @Yellow;
 
   &:after {
     content: "❚";
@@ -119,20 +132,30 @@ html {
   }
 }
 
+.ddd {
+  background-color: transparent !important;
+  text-decoration: underline !important;
+
+  &:hover {
+    background-color: transparent !important;
+    text-decoration: line-through !important;
+  }
+}
+
 .ccc {
-  color: fade(@White, 80%) !important;
+  color: fade(@Black, 80%) !important;
 }
 
 .aaa {
-  color: @Blue !important;
+  color: @Yellow !important;
 }
 
 .bbb {
-  color: @White !important;
+  color: @Black !important;
 }
 
 .aaa-bg {
-  background-color: @Blue !important;
+  background-color: @Yellow !important;
 }
 
 .bbb-bg {

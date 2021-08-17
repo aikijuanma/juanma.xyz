@@ -37,10 +37,15 @@ Colibri (colibri.opqr.co)
 Hyper (hyper.is)
 
 FONTS
-Nitti (boldmonday.com/typeface/nitti)
+Fira Code (github.com/tonsky/FiraCode)
+M Plus 1p (mplus-fonts.osdn.jp)
 
 GRAPHICS
 Laundry & Care Symbols by Daniel Falk (thenounproject.com/daniel2021/collection/laundry-care-symbols)
+
+COLORS
+PANTONE 17-5104 Ultimate Gray (pantone.com/color-finder/17-5104-TCX)
+PANTONE 13-0647 Illuminating (pantone.com/color-finder/13-0647-TCX)
 
 IMAGES
 Hannah Steller as photographed by her older brother, Dustin Steller, in the Kansas City area. The photo was originally uploaded to iStockphoto in August 2005.

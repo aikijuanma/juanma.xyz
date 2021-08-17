@@ -124,13 +124,71 @@
     $('.page').removeClass('hide').addClass('fadeIn');
   }
 
-  function blueIsTheWarmestColour() {
+  function switchLanguage() {
+
+    $('*[href="#ca"], *[href="#en"], *[href="#es"], *[href="#jp"]').attr('role', 'button');
+
+    ////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////
+
+    $('*[href="#ca"]').click(function(e) {
+      e.preventDefault();
+      $('html').attr('xml:lang', 'ca').attr('lang', 'ca');
+      $('*[lang="ca"]').not('html').removeClass('hide').addClass('show');
+      $('*[lang="en"], *[lang="es"], *[lang="jp"]').not('html').removeClass('show').addClass('hide');
+
+      newPageTitle = 'Juanma Pérez Rabasco <hello@juanma.xyz>';
+      document.title = newPageTitle;
+    });
+
+    ////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////
+
+    $('*[href="#en"]').click(function(e) {
+      e.preventDefault();
+      $('html').attr('xml:lang', 'en').attr('lang', 'en');
+      $('*[lang="en"]').not('html').removeClass('hide').addClass('show');
+      $('*[lang="ca"], *[lang="es"], *[lang="jp"]').not('html').removeClass('show').addClass('hide');
+
+      newPageTitle = 'Juanma Pérez Rabasco <hello@juanma.xyz>';
+      document.title = newPageTitle;
+    });
+
+    ////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////
+
+    $('*[href="#es"]').click(function(e) {
+      e.preventDefault();
+      $('html').attr('xml:lang', 'es').attr('lang', 'es');
+      $('*[lang="es"]').not('html').removeClass('hide').addClass('show');
+      $('*[lang="ca"], *[lang="en"], *[lang="jp"]').not('html').removeClass('show').addClass('hide');
+
+      newPageTitle = 'Juanma Pérez Rabasco <hello@juanma.xyz>';
+      document.title = newPageTitle;
+    });
+
+    ////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////
+
+    $('*[href="#jp"]').click(function(e) {
+      e.preventDefault();
+      $('html').attr('xml:lang', 'jp').attr('lang', 'jp');
+      $('*[lang="jp"]').not('html').removeClass('hide').addClass('show');
+      $('*[lang="ca"], *[lang="en"], *[lang="es"]').not('html').removeClass('show').addClass('hide');
+
+      newPageTitle = 'フアンマ・ペレス・ラバスコ <hello@juanma.xyz>';
+      document.title = newPageTitle;
+    });
+  }
+
+  function yellowIsTheWarmestColour() {
 
     $('.pilcrow').click(function() {
       $('body').toggleClass('bbb-bg');
       $('.page').toggleClass('aaa-bg');
       $('.pilcrow').toggleClass('bbb');
-      $('main, main a').toggleClass('ccc');
+      $('main').toggleClass('ccc');
+      $('main a').toggleClass('ddd');
     });
   }
 
@@ -145,7 +203,8 @@ jQuery(document).ready(function($) {
   randomFavicon();
   replacePilcrow();
   revealContent();
-  blueIsTheWarmestColour();
+  switchLanguage();
+  yellowIsTheWarmestColour();
 
   console.log('↑ ↑ ↓ ↓ ← → ← → b a');
 });

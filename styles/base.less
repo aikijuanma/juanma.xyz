@@ -1,31 +1,33 @@
 // main: default.less
 
-@font-face {
-  font-family: 'Nitti Light';
-  font-display: block;
-  src: url('../fonts/nitti-light-v40-webfont.eot');
-  src: url('../fonts/nitti-light-v40-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/nitti-light-v40-webfont.woff2') format('woff2'),
-       url('../fonts/nitti-light-v40-webfont.woff') format('woff'),
-       url('../fonts/nitti-light-v40-webfont.ttf') format('truetype'),
-       url('../fonts/nitti-light-v40-webfont.svg#Nitti_Light') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=M+PLUS+1p:wght@300&display=swap');
 
-@font-face {
-  font-family: 'Nitti Light Italic';
-  font-display: block;
-  src: url('../fonts/nitti-lightitalic-v40-webfont.eot');
-  src: url('../fonts/nitti-lightitalic-v40-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/nitti-lightitalic-v40-webfont.woff2') format('woff2'),
-       url('../fonts/nitti-lightitalic-v40-webfont.woff') format('woff'),
-       url('../fonts/nitti-lightitalic-v40-webfont.ttf') format('truetype'),
-       url('../fonts/nitti-lightitalic-v40-webfont.svg#Nitti_Light_Italic') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
+// @font-face {
+//   font-family: 'Nitti Light';
+//   font-display: block;
+//   src: url('../fonts/nitti-light-v40-webfont.eot');
+//   src: url('../fonts/nitti-light-v40-webfont.eot?#iefix') format('embedded-opentype'),
+//        url('../fonts/nitti-light-v40-webfont.woff2') format('woff2'),
+//        url('../fonts/nitti-light-v40-webfont.woff') format('woff'),
+//        url('../fonts/nitti-light-v40-webfont.ttf') format('truetype'),
+//        url('../fonts/nitti-light-v40-webfont.svg#Nitti_Light') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: 'Nitti Light Italic';
+//   font-display: block;
+//   src: url('../fonts/nitti-lightitalic-v40-webfont.eot');
+//   src: url('../fonts/nitti-lightitalic-v40-webfont.eot?#iefix') format('embedded-opentype'),
+//        url('../fonts/nitti-lightitalic-v40-webfont.woff2') format('woff2'),
+//        url('../fonts/nitti-lightitalic-v40-webfont.woff') format('woff'),
+//        url('../fonts/nitti-lightitalic-v40-webfont.ttf') format('truetype'),
+//        url('../fonts/nitti-lightitalic-v40-webfont.svg#Nitti_Light_Italic') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+//
 // @font-face {
 //   font-family: 'Nitti Normal';
 //   font-display: block;
@@ -38,7 +40,7 @@
 //   font-weight: normal;
 //   font-style: normal;
 // }
-
+//
 // @font-face {
 //   font-family: 'Nitti Grotesk';
 //   font-display: block;
@@ -57,10 +59,13 @@
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 
-.NittiLight { font-family: 'Nitti Light', Courier, Menlo, monospace; }
-.NittiLightItalic { font-family: 'Nitti Light Italic', Courier, Menlo, monospace; }
+// .NittiLight { font-family: 'Nitti Light', Courier, Menlo, monospace; }
+// .NittiLightItalic { font-family: 'Nitti Light Italic', Courier, Menlo, monospace; }
 // .NittiNormal { font-family: 'Nitti Normal', Courier, Menlo, monospace; }
 // .NittiGrotesk { font-family: 'Nitti Grotesk', Courier, Menlo, monospace; }
+
+.FiraCode { font-family: 'Fira Code', monospace; }
+.MPlus1p { font-family: 'M PLUS 1p', sans-serif; }
 
 .thin { font-weight: 100; }
 .extra_light { font-weight: 200; }
@@ -75,9 +80,12 @@
 .italic { font-style: italic; }
 .normal { font-style: normal; }
 
-@Black: #000000;
-// @Blue: #1206f9; // Deep Lyons Blue
+@Black: #121315;
 @Blue: #003e83; // Vandar Poel's Blue
+@ClassicBlue: #0F4C81; // PANTONE  19-4052 TCX Classic Blue
+@Coral: #FA7268; // PANTONE  16-1546 TPX Living Coral
+@Grey: #939597;
+@Yellow: #F5DF4D; // PANTONE  13-0647 TCX Illuminating
 @White: #ffffff;
 
 ////////////////////////////////////////////////////////////////
@@ -148,6 +156,15 @@
 
 .show {
   display: block;
+}
+
+.transition {
+  -webkit-backface-visibility: hidden; // fix for transition flickering
+  -webkit-transition: .3s ease;
+     -moz-transition: .3s ease;
+      -ms-transition: .3s ease;
+       -o-transition: .3s ease;
+          transition: .3s ease;
 }
 
 .vertical-align {
