@@ -4,7 +4,7 @@ The human, technology, and tools behind this site.
 
 ABOUT
 Name: Juanma Perez Rabasco
-Location: 41.377162, 2.167933
+Location: 41.452274175256456, 2.2461048816313096
 
 CONTACT
 Email: hello@juanma.xyz
