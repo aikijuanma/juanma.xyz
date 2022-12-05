@@ -4,7 +4,7 @@ date: 2017-09-27
 last_modified_at: 2018-10-05
 ---
 <div class="hide" id="ca" lang="ca" markdown="1">
-  Sóc un programador independent de Barcelona. Desenvolupo aplicacions web per empreses i institucions públiques i privades. A més, escric {codi}, faig coses amb píxels, i modifico sistemes per amor a l’art. He tingut el privilegi de treballar amb grans col·laboradors, com:<br>
+  Sóc un programador independent de Barcelona. Desenvolupo aplicacions web per empreses i institucions públiques i privades. A més, escric {codi}, faig coses amb píxels, i modifico sistemes per amor a l’art. Des de l'octubre de 2021, treballo feliçment per a [eDreams ODIGEO](https://www.edreamsodigeo.com/). Abans, però, He tingut el privilegi de treballar amb grans col·laboradors, com:<br>
   ¶<br>
   [AEPJ](https://www.jewisheritage.org/ "European Association for the Preservation and Promotion of Jewish Culture and Heritage"),
   [Aikido Musubi](https://aikidomusubi.com/ "Aikido Musubi"),
@@ -26,6 +26,7 @@ last_modified_at: 2018-10-05
   [MiCuento](https://micuento.com/ "MiCuento"),
   [PIPS Abrera](https://pipsabrera.com/ "PIPS Abrera"),
   [Prospera](https://prosperastiftelsen.no/ "Prospera Stiftelsen"),
+  [Renommé](https://renomme.no/ "Renommé"),
   [Taste of BCN](http://www.tasteofbcn.com/ "Taste of BCN"), i
   [VisitSantCugat](https://www.visitsantcugat.cat/en/ "VisitSantCugat"), entre d'altres.<br>
   ¶<br>
@@ -37,7 +38,7 @@ last_modified_at: 2018-10-05
 </div>
 
 <div class="show" id="en" lang="en" markdown="1">
-  I'm an independent developer from Barcelona. I build public and private web applications for companies and institutions. Also, I write {code}, make things with pixels, and tweak systems for fun. I’ve had the privilege of working with many great collaborators, like:<br>
+  I'm an independent developer from Barcelona. I build public and private web applications for companies and institutions. Also, I write {code}, make things with pixels, and tweak systems for fun. Since Oct 2021 I'm happily working for [eDreams ODIGEO](https://www.edreamsodigeo.com/). Before that I’ve had the privilege of working with many great collaborators, like:<br>
   ¶<br>
   [AEPJ](https://www.jewisheritage.org/ "European Association for the Preservation and Promotion of Jewish Culture and Heritage"),
   [Aikido Musubi](https://aikidomusubi.com/ "Aikido Musubi"),
@@ -59,6 +60,7 @@ last_modified_at: 2018-10-05
   [MiCuento](https://micuento.com/ "MiCuento"),
   [PIPS Abrera](https://pipsabrera.com/ "PIPS Abrera"),
   [Prospera](https://prosperastiftelsen.no/ "Prospera Stiftelsen"),
+  [Renommé](https://renomme.no/ "Renommé"),
   [Taste of BCN](http://www.tasteofbcn.com/ "Taste of BCN"), and
   [VisitSantCugat](https://www.visitsantcugat.cat/en/ "VisitSantCugat"), among others.<br>
   ¶<br>
@@ -70,7 +72,7 @@ last_modified_at: 2018-10-05
 </div>
 
 <div class="hide" id="es" lang="es" markdown="1">
-  Soy un programador independiente de Barcelona. Desarrollo aplicaciones web para compañías e instituciones públicas y privadas. Además, escribo {código}, hago cosas con píxels, y modifico sistemas por amor al arte. He tenido el privilegio de trabajar con grandes colaboradores, como:<br>
+  Soy un programador independiente de Barcelona. Desarrollo aplicaciones web para compañías e instituciones públicas y privadas. Además, escribo {código}, hago cosas con píxels, y modifico sistemas por amor al arte. Desde octubre de 2021, trabajo felizmente para [eDreams ODIGEO](https://www.edreamsodigeo.com/). Antes, he tenido el privilegio de trabajar con grandes colaboradores, como:<br>
   ¶<br>
   [AEPJ](https://www.jewisheritage.org/ "European Association for the Preservation and Promotion of Jewish Culture and Heritage"),
   [Aikido Musubi](https://aikidomusubi.com/ "Aikido Musubi"),
@@ -92,6 +94,7 @@ last_modified_at: 2018-10-05
   [MiCuento](https://micuento.com/ "MiCuento"),
   [PIPS Abrera](https://pipsabrera.com/ "PIPS Abrera"),
   [Prospera](https://prosperastiftelsen.no/ "Prospera Stiftelsen"),
+  [Renommé](https://renomme.no/ "Renommé"),
   [Taste of BCN](http://www.tasteofbcn.com/ "Taste of BCN"), y
   [VisitSantCugat](https://www.visitsantcugat.cat/en/ "VisitSantCugat"), entre otros.<br>
   ¶<br>
@@ -103,7 +106,7 @@ last_modified_at: 2018-10-05
 </div>
 
 <div class="hide" id="jp" lang="jp" markdown="1">
-  バルセロナを拠点に活躍しておりますディベロッパーです。企業や公的機関の依頼でWebアプリケーションを作成しています。また、趣味で「コード」を書いたり、ピクセルで何かを作ったり、システムを変更したりして楽しんでいます。<br>
+  バルセロナを拠点に活躍しておりますディベロッパーです。企業や公的機関の依頼でWebアプリケーションを作成しています。また、趣味で「コード」を書いたり、ピクセルで何かを作ったり、システムを変更したりして楽しんでいます。２０２１年１０月から、[eDreams ODIGEO](https://www.edreamsodigeo.com/)で楽しく働いています。<br>
   ¶<br>
   これまで、
   [AEPJ](https://www.jewisheritage.org/ "European Association for the Preservation and Promotion of Jewish Culture and Heritage")、
@@ -126,6 +129,7 @@ last_modified_at: 2018-10-05
   [MiCuento](https://micuento.com/ "MiCuento")、
   [PIPS Abrera](https://pipsabrera.com/ "PIPS Abrera")、
   [Prospera](https://prosperastiftelsen.no/ "Prospera Stiftelsen")、
+  [Renommé](https://renomme.no/ "Renommé")、
   [Taste of BCN](http://www.tasteofbcn.com/ "Taste of BCN")、
   [VisitSantCugat](https://www.visitsantcugat.cat/en/ "VisitSantCugat")
   を始めとする多くの企業とともに仕事をしてきました。<br>
